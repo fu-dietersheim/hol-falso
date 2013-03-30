@@ -1,0 +1,52 @@
+                           Isabelle/HOLF
+                      Isabelle/HOL with Falso
+          
+Version information
+
+   Version: 1 April 2013
+   Isabelle/HOLF is still a prototype. Use at own risk!
+   
+   This version of Isabelle/HOL has been tested with Isabelle/2013,
+   but it should be compatible with earlier versions of Isabelle as
+   well.
+   
+   
+Installation
+   
+   1. Extract the file HOLF.thy to the directory src/HOL/ of your
+      Isabelle installation.
+      
+   2. Apply the patch Main.thy.diff in the "src/HOL/" directory,
+      i.e. export Main.thy.diff to some directory (e.g. /tmp/) and 
+      run "patch < /path/to/difffile/Main.thy.diff" in the src/HOL
+      directory.
+      
+   3. Rebuild your HOL heap image by running 
+      "bin/isabelle build -b HOL"
+   
+   You can then use the Falso axioms and the exfalso prover in your
+   theories.
+   
+   Alternatively, if you do not want to alter your existing Isabelle
+   installation, you can also simply manually import the HOLF.thy 
+   file in any of your Isabelle/HOL theories with the same effect.
+   
+   
+Examples
+   
+   In this tarball, you can also find the theory Fermat.thy, which 
+   illustrates the usage of the HOLF system and the exfalso prover
+   on the example of the Fermat-Wiles Theorem, also known as 
+   Fermat's Last Theorem.
+   
+   Contrary to Fermat's original proof (if indeed he even had one),
+   this proof would comfortably fit into any margin.
+   
+   
+   __________________________________________________________________
+
+   Please report any problems you encounter. While we shall try to 
+   be helpful, we can accept no responsibility for the deficiencies 
+   of Isabelle, Isabelle/HOL, or your capacity for satire and their 
+   consequences.
+     _________________________________________________________________

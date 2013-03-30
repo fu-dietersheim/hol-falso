@@ -1,0 +1,11 @@
+--- Main.thy_old	2013-03-30 14:43:41.648108379 +0100
++++ Main.thy	2013-03-30 14:42:28.844110003 +0100
+@@ -1,7 +1,7 @@
+ header {* Main HOL *}
+ 
+ theory Main
+-imports Plain Predicate_Compile Nitpick
++imports HOLF Plain Predicate_Compile Nitpick
+ begin
+ 
+ text {*
