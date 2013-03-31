@@ -1,6 +1,8 @@
                            Isabelle/HOLF
                       Isabelle/HOL with Falso
-          
+            Theorem Proving Group at FU Dietersheim
+       <http://www.fu-dietersheim.de/logik/isabelle/holf/>
+
 Version information
 
    Version: 1 April 2013
@@ -41,6 +43,31 @@ Examples
    
    Contrary to Fermat's original proof (if indeed he even had one),
    this proof would comfortably fit into any margin.
+   
+  
+   
+Bug Reporting
+
+   HOLF is still in the early stages of its development and may 
+   therefore still be somewhat unstable. Please report any bugs that
+   you find at our bug tracker:
+
+      <https://github.com/larsrh/hol-falso/issues>
+
+   In case you don't have a GitHub account, feel free to contact the
+   authors directly via mail:
+
+      Manuel Eberl <eberl@fu-dietersheim.de>
+      Lars Hupel <hupel@fu-dietersheim.de>
+      
+
+Snail mail contact
+
+   Fakultaet für Informatik
+   Freie Universitaet Dietersheim
+   Satiergartenstr. 42
+   D-85386 Dietersheim/Eching
+   Germany
    
    
    __________________________________________________________________
